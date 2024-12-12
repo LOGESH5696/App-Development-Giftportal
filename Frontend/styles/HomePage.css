@@ -1,0 +1,288 @@
+/* src/styles/HomePage.css */
+
+.homepage {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero-section {
+  /* background: url('https://www.egiftmart.com/theme/img/egiftmart.jpg') no-repeat center center/cover; */
+  background-color: rgb(149, 149, 233);
+  color: white;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.shop-now-button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: white;
+  background: #ff6f61;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  text-decoration: none;
+}
+
+.shop-now-button:hover {
+  background: #e65a50;
+}
+
+/* Featured Products */
+.featured-products {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.301);
+}
+
+.featured-products h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.product-item {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 220px; /* Adjusted for better alignment */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.product-item h3 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.product-item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* About Us Section */
+.about-us {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+.about-us h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-us p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #666;
+  max-width: 800px; /* Added max-width for better readability */
+  margin: 0 auto; /* Centered the content */
+}
+
+/* Footer */
+.footer {
+  padding: 1rem;
+  background: #333;
+  color: white;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+.about-us-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.company-intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.company-intro h1 {
+  font-size: 2.5em;
+  color: #343a40;
+}
+
+.company-intro p {
+  font-size: 1.2em;
+  color: #495057;
+}
+
+.team-members {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team-members h2 {
+  font-size: 2em;
+  color: #343a40;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  text-align: center;
+  max-width: 200px;
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.team-member h3 {
+  font-size: 1.2em;
+  color: #343a40;
+}
+
+.timeline {
+  margin-bottom: 30px;
+}
+
+.timeline h2 {
+  font-size: 2em;
+  color: #343a40;
+}
+
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.timeline-event {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-event h3 {
+  font-size: 1.5em;
+  color: #007bff;
+}
+
+.customer-testimonials {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.customer-testimonials h2 {
+  font-size: 2em;
+  color: #343a40;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.testimonial {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+  font-size: 1.2em;
+  color: #495057;
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+  color: #6c757d;
+}
+
+.contact-info {
+  margin-bottom: 30px;
+}
+
+.contact-info h2 {
+  font-size: 2em;
+  color: #343a40;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-info li {
+  font-size: 1.2em;
+  color: #495057;
+}
+
+.call-to-action {
+  text-align: center;
+}
+
+.call-to-action h2 {
+  font-size: 2em;
+  color: #343a40;
+}
+
+.call-to-action p {
+  font-size: 1.2em;
+  color: #495057;
+}
+
+.call-to-action a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.call-to-action a:hover {
+  text-decoration: underline;
+}
+

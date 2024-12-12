@@ -1,0 +1,21 @@
+.order-confirmation-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial, sans-serif';
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+  }
+  
+  .order-confirmation-page p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .order-confirmation-page p:nth-child(3) {
+    margin-top: 20px;
+  }
+  
